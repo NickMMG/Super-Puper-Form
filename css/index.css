@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+input {
+    display: block;
+    height: 30px;
+    border-radius: 8px;
+    background: rgb(220, 194, 230);
+}
+
+input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.btn {
+    height: 40px;
+    background: none;
+    border: none;
+    outline: 1px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.btn:hover {
+    background: rgb(94, 15, 198);
+    color: aqua;
+}
+
+.clear {
+    outline: 1px solid red;
+    width: 50vw;
+}
+
+.mainUsers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    color: black;
+}
+
+.user {
+    background-color: #f5f1f1;
+    width: 40vw;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background: rgb(238, 37, 228);
+}
+
+.user-outer {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.delete,
+.change {
+    border: none;
+    height: 40%;
+    color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.delete {
+    margin-top: 2px;
+    background: rgb(95, 11, 11);
+}
+
+.change {
+    margin-bottom: 2px;
+    background: rgb(4, 82, 4);
+}
+.delete:hover, .change:hover {
+    background: rgb(94, 15, 198);
+    color: aqua;
+}
+body {
+    background-image: url(https://img.freepik.com/free-vector/neon-lights-background-theme_52683-44625.jpg?w=1480&t=st=1673360458~exp=1673361058~hmac=a3ca6d9729d2e0336465cf020b53b48f6a699c8b9dcf668f7978f97667c63f80);
+    color: #f5f1f1;
+    background-attachment: fixed;
+}

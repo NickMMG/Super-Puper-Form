@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <script defer src="index.js"></script>
+    <title>Elbrus Super Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mainHeading">Elbrus Super Form</h1>
+        <main>
+            <div class="form">
+                <form>
+                    <label for="name">Name</label>
+                    <input class="name" id="name" type="text" autocomplete="off">
+
+                    <label for="secondName">Second name</label>
+                    <input class="secondName" id="secondName" type="text" autocomplete="off">
+
+                    <label for="email">Email</label>
+                    <input required type="email" class="email" id="email" autocomplete="off">
+
+                    <label for="nickName">nickName</label>
+                    <input required type="type" class="nickName" id="nickName" autocomplete="off">
+
+                    <label for="email">Phone number</label>
+                    <input required type="number" class="tel" id="tel" autocomplete="off">
+
+                    <button class="btn">Отправить</button>
+                </form>
+                <button class="btn clear">Очистить localStorage</button>
+            </div>
+
+            <div class="mainUsers">
+                <h3>Users:</h3>
+                <div class="users"></div>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
